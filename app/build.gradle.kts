@@ -58,19 +58,25 @@ dependencies {
 	androidTestImplementation(libs.androidx.ui.test.junit4)
 	debugImplementation(libs.androidx.ui.tooling)
 	debugImplementation(libs.androidx.ui.test.manifest)
-//
+	// hilt
 	implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
 	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
 	implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.4")
 	implementation("com.google.dagger:hilt-android:2.50")
 	kapt("com.google.dagger:hilt-android-compiler:2.50")
+	// Retrofit
 	implementation("com.squareup.retrofit2:retrofit:2.9.0")
 	implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 	implementation ("com.squareup.okhttp3:logging-interceptor:4.10.0")
+	// icon
 	implementation ("androidx.compose.material:material-icons-extended:1.6.8")
 	// Coil
 	implementation("io.coil-kt:coil-compose:2.6.0")
 	implementation ("androidx.navigation:navigation-compose:2.7.7")
+	//Paging3
+	val paging_version = "3.2.1"
+	implementation("androidx.paging:paging-compose:$paging_version")
+	implementation("androidx.paging:paging-runtime-ktx:$paging_version")
 }
 kapt {
 	correctErrorTypes = true

@@ -4,5 +4,5 @@ object ConstQuote {
 	const val BASE_URL = "https://api.quotable.io/"
 	const val QUOTES = "quotes?limit=20"
 	const val RANDOM = "random"
-
+	const val QUOTES_BY_TAG = "quotes"
 }

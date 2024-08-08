@@ -1,6 +1,6 @@
 package com.tutor.retrofit_app.quote.di
 
-import com.tutor.retrofit_app.quote.data.QuoteApi
+import com.tutor.retrofit_app.quote.data.remote.api.QuoteApi
 import com.tutor.retrofit_app.quote.utils.ConstQuote
 import dagger.Module
 import dagger.Provides

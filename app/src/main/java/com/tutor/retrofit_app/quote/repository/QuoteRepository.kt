@@ -1,6 +1,6 @@
 package com.tutor.retrofit_app.quote.repository
 
-import com.tutor.retrofit_app.quote.data.QuoteApi
+import com.tutor.retrofit_app.quote.data.remote.api.QuoteApi
 import com.tutor.retrofit_app.quote.data.model.QuoteDto
 import com.tutor.retrofit_app.quote.data.model.QuoteItem
 import com.tutor.retrofit_app.quote.viewmodel.QuoteResult

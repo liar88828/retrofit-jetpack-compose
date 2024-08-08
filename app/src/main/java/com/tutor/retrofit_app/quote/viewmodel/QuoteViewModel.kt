@@ -25,7 +25,6 @@ class QuoteViewModel
 
 	fun getQuote() {
 		viewModelScope.launch {
-
 			val result = repository.getQuotes()
 			result.collect {
 				when (it) {
